@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  background-color: #fff;
+
+
+}
+
+
+.navbar-brand {
+  color: #6c3c1c !important;
+  font-weight: 700;
+  font-size: 2.5rem !important;
+}
+@media (max-width: 991.98px) and (orientation: portrait) {
+
+  .navbar-brand {
+    font-size: 2.1rem !important;
+  }
+}
+
+@media (max-width: 991.98px) and (orientation: landscape) {
+
+  .navbar-brand{
+    font-size: 2.1rem !important;
+  }
+}
+
+
+.navbar-nav li {
+  padding: 0 10px;
+
+}
+
+
+.navbar-nav li a {
+  color: #6c3c1c !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+a.nav-link {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.8rem;
+  text-align: justify;
+  padding: 0 10px;
+}
+
+h1 {
+  text-align: justify;
+
+  padding: 0 10px;
+}
+
+#header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+
+
+.sobremi-h1 {
+  color: #c4541c;
+  font-size: 3rem;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-h1 {
+  color: #c4541c;
+  text-align: center;
+  font-size: 3rem;
+
+}
+
+.content-h1-2 {
+  color: #c4541c;
+  text-align: center;
+  font-size: 3rem;
+
+}
+
+.content-p {
+  margin-bottom: 50px;
+}
+
+.nicole-canto {
+  color: #ac7c34;
+
+}
+
+.swiper {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 50px;
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+.content-texto {
+  width: 100%
+}
+
+.texto-imagenes {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  transform: translateX(50px);
+  opacity: 0;
+  margin-bottom: 50px;
+}
+
+.content-texto {
+  transform: translateY(50px);
+  height: auto;
+  opacity: 0;
+}
+
+
+.imagenes {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.none {
+  display: none;
+}
+
+a.img-1 {
+  height: 59px;
+  display: inline-block;
+  width: 100%;
+}
+
+.p-contactame{
+  text-align: justify;
+  padding: 20px 0px;
+}
+
+@media (max-width: 991.98px) and (orientation: portrait) {
+
+  #header {
+    overflow: hidden;
+    height: auto;
+  }
+}
+
+@media (max-width: 991.98px) and (orientation: landscape) {
+
+  #header {
+    overflow: hidden;
+    height: auto;
+  }
+}
+
+@media (max-width: 991.98px) and (orientation: portrait) {
+
+  .content {
+    overflow: hidden;
+    height: auto;
+  }
+}
+
+@media (max-width: 991.98px) and (orientation: landscape) {
+
+  .content {
+    overflow: hidden;
+    height: auto;
+  }
+}
+
+
+@media (max-width: 991.98px) and (orientation: portrait) {
+
+  .content-h1-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) and (orientation: landscape) {
+
+  .content-h1-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) and (orientation: portrait) {
+
+  .swiper {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 991.98px) and (orientation: landscape) {
+
+  .swiper {
+    width: 100%;
+    height: 380px;
+  }
+}
+
+.aimacion-foto {
+
+  object-fit: cover;
+}
+
+@media (max-width: 991.98px) and (orientation: portrait) {
+
+  .aimacion-foto {
+    width: 100%;
+    height: 250px !important;
+  }
+}
+
+@media (max-width: 991.98px) and (orientation: landscape) {
+
+  .aimacion-foto {
+    width: 100%;
+    height: 380px !important;
+  }
+}
+
+@media (max-width: 991.98px) and (orientation: portrait) {
+
+  .sobremi-h1,
+  .content-h1 {
+    text-align: center;
+    font-size: 2.1rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991.98px) and (orientation: landscape) {
+
+  .sobremi-h1,
+  .content-h1 {
+    text-align: justify;
+    font-size: 2.1rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991.98px) and (orientation: portrait) {
+
+  p {
+  
+    font-size: 1.6rem;
+  }
+}
+
+
+@media (max-width: 991.98px) and (orientation: landscape) {
+
+  p {
+
+    font-size: 1.6rem;
+  }
+}
+.padding-svg{
+  margin: 20px 0px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.btn-danger{
+  background-color: #6c3c1c;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 150px;
+  left: 60px;
+  
+  font-size: 1.8rem;
+}
+@media (max-width: 991.98px) and (orientation: portrait) {
+
+  .btn-danger{
+    background-color: #6c3c1c;
+    padding: 10px 20px;
+    position: absolute;
+bottom: -500px;
+    left: 60px;
+    
+    font-size: 1.8rem;
+  }
+}
